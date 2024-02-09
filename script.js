@@ -1,10 +1,5 @@
-// var, let e const
-// escopo global, escopo local
+var nome = 'joao';
+var idade = '18';
 
-const animal = 'gato';
 
-if (true) {
-    console.log(animal);
-}
-
-console.log(animal);
+console.log('Meu nome é', nome.concat('e eu tenho', idade,'anos :)'));
